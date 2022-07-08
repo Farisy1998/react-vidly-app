@@ -33,7 +33,8 @@ class Movies extends Component {
     // Future assignment of noDataType variable to a datatype.
     const checkType = !movie.noDataType;
     console.log(typeof checkType);
-
+    //
+    //
     const movies = [...this.state.movies];
     const index = movies.indexOf(movie);
     movies[index] = { ...movies[index] };
